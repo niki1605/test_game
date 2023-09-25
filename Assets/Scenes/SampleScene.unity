@@ -12802,6 +12802,7 @@ MonoBehaviour:
   - {fileID: 210609100}
   - {fileID: 1516503699}
   Gameoverpan: {fileID: 1537529963}
+  hppan: {fileID: 250218059}
   hpbar: {fileID: 2143393881}
   hp: 1
 --- !u!4 &1430763264

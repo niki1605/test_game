@@ -35,6 +35,7 @@ public class player : MonoBehaviour
 
     public GameObject Gameoverpan;
 
+    public GameObject hppan;
     public Image hpbar;
     public float hp=1f;
 
@@ -409,7 +410,7 @@ Instantiate(bull,shotpoint.position, shotpoint.rotation);
         {
 
             Gameoverpan.SetActive(true);
-            Destroy(hpbar);
+            Destroy(hppan);
             Destroy(gameObject);
 
 
